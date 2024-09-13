@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: "Outfit", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+body {
+    background-color: #171717;
+    
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 100px;
+    font-style: bold;
+    padding: 10px;
+    margin-top: 20px;}
+
+a {
+    text-decoration: none;
+    color: ivory;
+    font-size: 15px; /* Adjusted for better readability */
+    
+}
+
+p {
+    color: ivory;
+
+}
+
+h3 {
+    color: ivory;
+    font-size: 24px; /* Adjusted for better readability */
+    font-family:
+    
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1 {
+    font-size: 100px; /* Adjusted for better readability */
+    background-image:radial-gradient(circle at 10% 20%, rgb(85, 149, 27) 0.1%, rgb(183, 219, 87) 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+    margin-top: 10px;
+}
+h2{
+    margin-bottom: 50px;
+    color: rgb(196, 248, 188);
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col2 img {
+    max-width: 80%; /* Adjusted to fit the container */
+    padding: 10px;
+    max-height: 80%;
+
+}
+.btn {
+    display: inline-flex; /* Use inline-flex to center text inside the button */
+    align-items: center;  /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    background: radial-gradient(circle at 10% 20%, rgb(85, 149, 27) 0.1%, rgb(183, 219, 87) 90%);
+    color: ivory;
+    padding: 10px 30px; /* Note: Use "px" without space */
+    margin: 50px 70px;
+    border-radius: 30px;
+    width: 130px;
+    height: 40px;
+    text-align: center; /* Ensure text is centered horizontally */
+    font-size: 16px; /* Optional: adjust font size */
+    font-weight: bold; /* Optional: set font weight if needed */
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: greenyellow;
+}
+.categories{
+    margin: 70px 0px;
+
+}
+.col3{
+    flex-basis: 30px;
+    min-width:220px;
+    transition:transform 0.5s;
+
+}
+.col3 img{
+    width: 100%;
+    border-image: white;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+p1{
+    color: #ffc3f8;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+p2{
+    color: #a7ffa6;
+    padding: 10px;
+    margin-left: 80px;
+}
+p3{
+    color: rgb(237, 225, 131);
+    padding: 10px;
+    margin-left: 80px;
+}
+p4{
+    color: #a7ffa6;
+    padding: 10px;
+    margin-left: 80px;
+    
+}
+h4{
+    margin-top: 20px;
+    color: ivory;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    font-size: 20px;
+
+}
+.col3:hover{
+    transform: translateY(-5px);
+}
+/* Remove width from .col7 to allow offer section to fill entire width */
+.col7 {
+    margin-top: 100px;
+    height: 100px;
+    margin-right: 200px; /* You can adjust this margin if needed */
+  }
+  
+  /* Set width to 100% for the offer section's parent element */
+  .offer {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,255,94,0.6026785714285714) 0%, rgba(136,9,76,0.5662640056022409) 100%);
+    margin-top: 80px;
+    padding: 30px 0;
+    width: 100%; /* Set width to 100% */
+    margin-left: 0; /* Remove left margin */
+    margin-right: 0; /* Remove right margin */
+  }
+  
+  /* Optionally, remove max-width from .small-contain if it's causing limitations */
+  .small-contain {
+    /* Remove or adjust max-width if needed */
+    /* max-width: 1080px; */
+    margin: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  h9{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-left: 600px;
+    vertical-align: middle;
+    
+  }
+  h5{
+    color: rgb(255, 213, 0);
+    text-align: center;
+    padding: 0;
+    font-size: 50px;
+    margin-bottom:70px;
+    
+
+  }
+
